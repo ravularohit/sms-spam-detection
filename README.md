@@ -9,7 +9,7 @@
  ```
  ___
 ### Graph
-![alt text](https://github.com/ravularohit/sms-spam-detector/blob/master/images/figure
+![alt text](https://github.com/ravularohit/sms-spam-detector/blob/master/images/Figure_1.png)
 ### output
 ![alt text](https://github.com/ravularohit/sms-spam-detector/blob/master/images/Screenshot%20from%202019-06-26%2021-21-41.png)
 
