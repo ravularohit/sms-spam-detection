@@ -10,3 +10,5 @@
  ___
 ### output
 ![alt text](https://github.com/ravularohit/sms-spam-detector/blob/master/images/Screenshot%20from%202019-06-26%2021-21-41.png)
+
+where **ham** :0 and **spam**:1
