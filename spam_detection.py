@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score,precision_score,f1_score,recall_score
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
 #reading data
-df=pd.read_csv("/root/spamdetection/spam_dataset.csv")
+df=pd.read_csv("/..../enter your path of dataset/...csv")
 
 #making ham=0,spam=1 used as target matrix in label_num column
 df['label_num'] = df.label.map({'ham':0,'spam':1})
@@ -66,8 +66,3 @@ f=sd.predict(c)
 z=sd.predict(b)
 print ("b = ",z)
 print("c = ", f)
-
-
-
-
-
