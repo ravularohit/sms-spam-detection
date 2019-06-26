@@ -8,3 +8,5 @@
  pip install scikit-learn,pandas,numpy,matplotlib,seaborn
  ```
  ___
+### output
+![alt text](
