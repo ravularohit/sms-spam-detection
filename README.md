@@ -1,5 +1,5 @@
 # sms-spam-detector
-using naive-bayes classifier
+######using naive-bayes classifier
 ---
 ### Requirements
  ```
