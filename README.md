@@ -1,4 +1,4 @@
-# sms-spam-detector
+# sms-spam-detection
 ###### using naive-bayes classifier
 ***
 ### Requirements
