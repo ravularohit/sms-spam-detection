@@ -39,7 +39,7 @@ f_test_count= vect.transform(f_test)
 #model training and prediction
 sd = MultinomialNB()
 sd.fit(f_train_count,l_train)
-print("\n\n[+]train score: ",sd.score(f_train_count,l_train))
+print("\n\n\033[1;32;40m [+]train score: ",sd.score(f_train_count,l_train))
 print("\n\n[+]test score:  ",sd.score(f_test_count,l_test))
 y_class = sd.predict(f_test_count)
 a= accuracy_score(l_test,y_class)
@@ -63,4 +63,4 @@ prediction = sd.predict(t)
 if prediction == 0:
     print("HAAM!")
 else:
-    print("SPAAAM!")
+    print("\033[1;31;40m [+]SPAAAM!")
