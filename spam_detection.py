@@ -56,13 +56,11 @@ print("\n",report)
 
 #testing with data other than in dataset
 print("\n\n[+] lets test with other unique msgs other than the datasets used: ") 
-b=["hello how are you im glad you are very alive"]
-c=["Congratulations! you have won a car voucher "]
-print("b=",b)
-print("c=",c)
-b=vect.transform(b)
-c=vect.transform(c)
-f=sd.predict(c)
-z=sd.predict(b)
-print ("b = ",z)
-print("c = ", f)
+t=[input("[+]enter a text msg to test : ")]
+t=np.array(t)
+t=vect.transform(t)
+prediction = sd.predict(t)
+if prediction == 0:
+    print("HAAM!")
+else:
+    print("SPAAAM!")
